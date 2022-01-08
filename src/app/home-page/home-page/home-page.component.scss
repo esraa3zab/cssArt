@@ -1,0 +1,96 @@
+.back-container{
+    position: absolute;
+    top: 80px;
+    left: 220px;
+    z-index: 2;
+}
+.up-left-back-square{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 0px 50px;
+    display: inline-block;
+    background:linear-gradient(180deg, #f7cac9 0%, #aaffb5 100%);
+}
+.up-right-back-square{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 50px 0px;
+    margin-left: 5px;
+    display: inline-block;
+    background:linear-gradient(180deg, #f7cac9 0%, #aaffb5 100%);
+}
+.down-left-back-square{
+   height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 50px 0px;
+    display: inline-block; 
+    background:linear-gradient(180deg, #aaffb5 0%, #f7cac9 100%);
+}
+.down-right-back-square{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 0px 50px;
+    margin-left: 5px;
+    display: inline-block;
+    background:linear-gradient(180deg, #aaffb5 0%, #f7cac9 100%);
+}
+.front-container{
+    position: absolute;
+    top: 95px;
+    left: 235px;
+    z-index: 2;
+    transform: rotate(135deg);
+}
+.lower-front{
+    margin-top: -40px;
+}
+.up-left-front-square{
+      height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 0px 50px;
+    margin-left: 5px;
+    display: inline-block;
+    background:linear-gradient(180deg, #f7cac9 0%, rgba(170, 225, 181, 0.80) 100%);
+}
+.up-right-front-square{
+  height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 50px 0px;
+    margin-left: -30px;
+    display: inline-block;
+    background:linear-gradient(180deg, #f7cac9 0%, rgba(170, 225, 181, 0.80) 100%);
+}
+.down-left-front-square{
+  height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 50px 0px;
+    margin-left: 5px;
+    display: inline-block;
+    background:linear-gradient(180deg, #aaffb5 0%, rgba(247, 202, 201, 0.80) 100%);}
+.down-right-front-square{
+  height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 0px 50px;
+    margin-left: -30px;
+    display: inline-block;
+    background:linear-gradient(180deg, #aaffb5 0%, rgba(247, 202, 201, 0.80) 100%);
+    }
+.center{
+   position: absolute;
+    top: 250px;
+    left: 390px;
+    z-index: 2;
+    border: 3px solid black;
+    height: 70px;
+    width: 70px;
+    background-color: #bb1587;
+    border-radius: 37px;
+}
