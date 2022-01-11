@@ -5,97 +5,81 @@
     } 
 }
 .back-container{
-    position: absolute;
     top: 80px;
     left: 220px;
+}
+.back-container, .front-container{
+    position: absolute;
     z-index: 2;
     animation-name: spin;
     animation-duration: 40000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+}
+.up-left-back-square,
+.up-left-front-square, 
+.up-right-back-square, 
+.up-right-front-square,
+.down-left-back-square,
+.down-left-front-square,
+.down-right-back-square,
+.down-right-front-square {
+ height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    display: inline-block;
+}
+.up-left-back-square,
+.up-right-back-square,
+.up-left-front-square,
+.up-right-front-square{
+    background:linear-gradient(180deg, #f7cac9 0%, rgba(170, 225, 181, 0.80) 100%);
+}
+.down-left-back-square,
+.down-right-back-square,
+.down-left-front-square,
+.down-right-front-square{
+    background:linear-gradient(180deg, #aaffb5 0%, rgba(247, 202, 201, 0.80) 100%);
+}
+.down-left-front-square,
+.down-right-front-square,
+.up-left-front-square,
+.up-right-front-square{
+    border-radius: 50px;
 }
 .up-left-back-square{
-    height: 200px;
-    width: 200px;
-    border: 5px solid black;
     border-radius: 125px 50px 0px 50px;
-    display: inline-block;
-    background:linear-gradient(180deg, #f7cac9 0%, #aaffb5 100%);
 }
 .up-right-back-square{
-    height: 200px;
-    width: 200px;
-    border: 5px solid black;
     border-radius: 50px 125px 50px 0px;
     margin-left: 5px;
-    display: inline-block;
-    background:linear-gradient(180deg, #f7cac9 0%, #aaffb5 100%);
 }
 .down-left-back-square{
-   height: 200px;
-    width: 200px;
-    border: 5px solid black;
     border-radius: 50px 0px 50px 125px;
-    display: inline-block; 
-    background:linear-gradient(180deg, #aaffb5 0%, #f7cac9 100%);
 }
 .down-right-back-square{
-    height: 200px;
-    width: 200px;
-    border: 5px solid black;
     border-radius: 0px 50px 125px 50px;
     margin-left: 5px;
-    display: inline-block;
-    background:linear-gradient(180deg, #aaffb5 0%, #f7cac9 100%);
 }
 .front-container{
-    position: absolute;
     top: 95px;
     left: 235px;
-    z-index: 2;
     transform: rotate(135deg);
-    animation-name: spin;
-    animation-duration: 40000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
 }
 .lower-front{
     margin-top: -40px;
 }
 .up-left-front-square{
-      height: 200px;
-    width: 200px;
-    border: 5px solid black;
-    border-radius: 50px;
     margin-left: 5px;
-    display: inline-block;
-    background:linear-gradient(180deg, #f7cac9 0%, rgba(170, 225, 181, 0.80) 100%);
 }
 .up-right-front-square{
-  height: 200px;
-    width: 200px;
-    border: 5px solid black;
-    border-radius: 50px;
     margin-left: -30px;
-    display: inline-block;
-    background:linear-gradient(180deg, #f7cac9 0%, rgba(170, 225, 181, 0.80) 100%);
 }
 .down-left-front-square{
-  height: 200px;
-    width: 200px;
-    border: 5px solid black;
-    border-radius: 50px;
     margin-left: 5px;
-    display: inline-block;
-    background:linear-gradient(180deg, #aaffb5 0%, rgba(247, 202, 201, 0.80) 100%);}
+    }
 .down-right-front-square{
-  height: 200px;
-    width: 200px;
-    border: 5px solid black;
-    border-radius: 50px;
     margin-left: -30px;
-    display: inline-block;
-    background:linear-gradient(180deg, #aaffb5 0%, rgba(247, 202, 201, 0.80) 100%);
     }
 .center{
    position: absolute;
