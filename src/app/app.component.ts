@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'study-project';
-}
+  displaySideMenu:boolean=false;
+  openNav(){
+    console.log('hi');
+    this.displaySideMenu=true;
+  }
+  closeNav()
+{
+  this.displaySideMenu=false;
+}}
