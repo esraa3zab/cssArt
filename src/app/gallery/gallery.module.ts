@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FlowerComponent } from './flower/flower.component';
 import { RouterModule, Routes } from '@angular/router';
+import { CactusComponent } from './cactus/cactus.component';
 
 const routes: Routes = [
   {path : '', component : FlowerComponent}
@@ -10,7 +11,8 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
-    FlowerComponent
+    FlowerComponent,
+    CactusComponent
   ],
   imports: [
     CommonModule,
