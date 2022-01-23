@@ -1,20 +1,46 @@
+.container-1{
+height: 500px;
+    width: 250px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.container-2{
+    height: 500px;
+    width: 250px;
+    position: absolute;
+    top: 100px;
+    left: 375px;
+}
+.container-3{
+    height: 500px;
+    width: 250px;
+    position: absolute;
+    top: 100px;
+    left: 660px;
+}
+.container-4{
+    height: 500px;
+    width: 250px;
+    position: absolute;
+    top: 100px;
+    left: 960px;
+}
 .pot{
     height: 150px;
     width: 200px;
     border: 1px solid black;
     border-radius: 0px 0px 100px 100px;
     background-color: #783f04;
-    top: 400px;
-    left: 560px;
+    top: 312px;
+    left: 50px;
     position: absolute;
     box-shadow: 0px 12px 15px 5px rgb(153 153 153 / 80%);
+
 }
 .cactus{
  height: 350px;
     width: 300px;
-    position: absolute;
-    top: 88px;
-    left: 505px;  
 }
 .right, .middle, .left{
     background-color: #38761d;
@@ -106,4 +132,193 @@
     left: 0px;
     border-radius: 1px 0px 185px 255px;
     background-color: #b45f06;
+}
+.round-cactus{
+    height: 200px;
+    width: 170px;
+    position: absolute;
+    top: 160px;
+    left: 66px;
+    border-radius: 100px;
+    background-color: #38761d;
+    box-shadow: 0px 12px 15px 5px rgb(153 153 153 / 80%);
+}
+.inner-round-cactus{
+    background-color: #6aa84f;
+    height: inherit;
+    width: 100px;
+    position: absolute;
+    left: 36px;
+    border-radius: 100px;
+}
+.inner-2{
+        width: 60px;
+    height: inherit;
+    position: absolute;
+    left: 20px;
+    border-radius: 50px;
+    background-color: #38761d;
+}
+.inner-3{
+    width: 35px;
+    height: inherit;
+    position: absolute;
+    left: 13px;
+    border-radius: 50px;
+    background-color: #6aa84f;
+}
+.oval-cactus{
+    height: 300px;
+    position: absolute;
+    top: 13px;
+    width: inherit;
+    .bottom{
+       width: 100px;
+    height: 140px;
+    background: #38761d;
+    border-radius: 74px / 123px;
+    position: absolute;
+    top: 160px;
+    left: 95px; 
+    .inner-1{
+        background-color: #6aa84f;
+    height: inherit;
+    width: 50px;
+    position: absolute;
+    left: 24px;
+    border-radius: 20px;
+    }
+    .inner-2{
+        left:35px;
+        width:30px;
+    }
+    .inner-3{
+        left:42px;
+        width: 15px;
+    }
+    }
+    .medium{
+        width: 75px;
+    height: 100px;
+    background: #38761d;
+    border-radius: 74px/123px;
+    position: absolute;
+    top: 130px;
+    left: 185px;
+    transform: rotate(50deg);
+    .inner-1{
+        background-color: #6aa84f;
+    height: inherit;
+    width: 45px;
+    position: absolute;
+    left: 15px;
+    border-radius: 24px;
+}
+.inner-2{
+    width: 30px;
+    left:23px;
+}
+.inner-3{
+    width: 17px;
+    left:29px;
+}
+    
+    }
+    .top{
+        width: 60px;
+    height: 80px;
+    background: #38761d;
+    border-radius: 74px/123px;
+    position: absolute;
+    top: 70px;
+    left: 185px;
+    transform: rotate(10deg);
+    .inner-1{
+background-color: #6aa84f;
+    height: inherit;
+    width: 34px;
+    position: absolute;
+    left: 13px;
+    border-radius: 24px;
+    }
+    .inner-2{
+width: 22px;
+left: 19px;
+    }
+    .inner-3{
+width: 10px;
+left: 25px;
+    }
+    }
+}
+.double-oval-cactus{
+    height: 315px;
+}
+.front{
+width: 85px;
+    height: 235px;
+    background: #6aa84f;
+    border-radius: 50px / 100px;
+    position: absolute;
+    left: 65px;
+    top: 100px;
+    .inner-1{
+        width: 45px;
+    height: inherit;
+    position: absolute;
+    left: 20px;
+    border-radius: 50px;
+    background-color: #38761d;
+    }
+    .inner-2{
+        left: 29px;
+        width: 27px;
+        background-color: #6aa84f;
+    }
+    .inner-3{
+        width: 15px;
+        left: 35px;
+        background-color: #38761d;
+    }
+    .inner-4{
+            width: 5px;
+    height: inherit;
+    position: absolute;
+    left: 40px;
+    border-radius: 50px;
+    background-color: #6aa84f;
+    }
+}
+.back{
+    width: 100px;
+    height: 275px;
+    background: #38761d;
+    border-radius: 50px / 100px;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    .inner-1{
+        width: 48px;
+    height: inherit;
+    position: absolute;
+    left: 26px;
+    border-radius: 50px;
+    background-color: #6aa84f;
+    }
+    .inner-2{
+        width: 35px;
+        left: 32px;
+    }
+    .inner-3{
+        width: 25px;
+        left: 37px;
+    }
+    .inner-4{
+        width: 15px;
+    height: inherit;
+    position: absolute;
+    left: 42px;
+    border-radius: 50px;
+    background-color: #38761d;
+    }
 }
