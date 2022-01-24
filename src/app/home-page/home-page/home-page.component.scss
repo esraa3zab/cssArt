@@ -1,0 +1,21 @@
+.top-background, .middle-background, .bottom-background{
+ position: absolute;
+    height: 0;
+    border-top: 250px solid #997788;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+}
+.top-background{
+    width: 100vw;
+    top: 0;
+}
+.middle-background{
+    width: 80vw;
+    top: 150px;
+    left: 10vw;  
+}
+.bottom-background{
+    width: 60vw;
+    top: 300px;
+    left: 20vw;
+}
