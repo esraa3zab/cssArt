@@ -11,6 +11,9 @@ color: white;
 }
 .Logo{
     width: 95vw;
+    font-family: cursive;
+    font-size: 40px;
+    margin-left: 20px;
 }
 
 .sidenav {
@@ -50,4 +53,15 @@ color: white;
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+.gallery-list{
+  a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: cursive;
+  }
+}
+.gallery-item{
+  color: #997788 !important;
 }

@@ -1,15 +1,16 @@
 <router-outlet></router-outlet>
 <nav class="navbar navbar-expand-lg header" [ngClass]="{'marginLeft': displaySideMenu}">
-   <a class="nav-link" (click)="openNav()" role="button">
+   <!--<a class="nav-link" (click)="openNav()" role="button">
           &#9776;
-        </a>
-  <a class="navbar-brand Logo" href="#">CSS ART</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+        </a>-->
+  <a class="navbar-brand Logo" href="#" (click)="closeNav('home')" [ngClass]="{'gallery-item': stylingClass === 'gallery-item'}" >CSS ART</a>
+  <div class="gallery-list">
+<a routerLink='/flower' (click)="closeNav('gallery')" [ngClass]="{'gallery-item': stylingClass === 'gallery-item'}" >Flower</a>
+  <a routerLink='/cactus' (click)="closeNav('gallery')" [ngClass]="{'gallery-item': stylingClass === 'gallery-item'}">Cactus</a>
+  </div>
 </nav>
-<div *ngIf="displaySideMenu" id="mySidenav" class="sidenav">
+<!--<div *ngIf="displaySideMenu" id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
   <a routerLink='/flower'>Flower</a>
   <a routerLink='/cactus'>Cactus</a>
-</div>
+</div>-->
